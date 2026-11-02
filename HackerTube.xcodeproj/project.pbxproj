@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0385E4DABC12A4341A555B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C9D0D8BA75CB9B5B00FF96 /* Assets.xcassets */; };
+		0AA47C128FD40CB91F1756CA /* YouTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CACAF8754FDB189DE721C /* YouTube.swift */; };
+		0F5A3C564A428EBE090A0968 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC9CAD3B258E59DB8CDF59 /* Components.swift */; };
+		28A731D5D836284507AE8747 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511E604DFCB4DBDA0E5DE771 /* Catalog.swift */; };
+		4BC9E9B6E60B13165A634B7E /* HackerTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BBD3FE3A0256E6834FBC38 /* HackerTubeApp.swift */; };
+		CB19AD3AB2E92B9D51C7BBA1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7015BC15DDE3C64304807D /* Config.swift */; };
+		E38C97AF838BF3B2A8A66A40 /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC71F1675D801B722A4E22 /* Screens.swift */; };
+		E6B712881AABC09C7946DE3D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B8285EA78DE60727113B37 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C9D0D8BA75CB9B5B00FF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08C1CAC622C3F96B47025DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		511E604DFCB4DBDA0E5DE771 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		5F7015BC15DDE3C64304807D /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		790CACAF8754FDB189DE721C /* YouTube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTube.swift; sourceTree = "<group>"; };
+		C1AC71F1675D801B722A4E22 /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		D4B8285EA78DE60727113B37 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E0BBD3FE3A0256E6834FBC38 /* HackerTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTubeApp.swift; sourceTree = "<group>"; };
+		E2BC9CAD3B258E59DB8CDF59 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		E9133195E7A8C1D1223258BF /* HackerTube.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HackerTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26E53E4C5B465A81BB00AFCC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				511E604DFCB4DBDA0E5DE771 /* Catalog.swift */,
+				E2BC9CAD3B258E59DB8CDF59 /* Components.swift */,
+				5F7015BC15DDE3C64304807D /* Config.swift */,
+				E0BBD3FE3A0256E6834FBC38 /* HackerTubeApp.swift */,
+				08C1CAC622C3F96B47025DD1 /* Info.plist */,
+				D4B8285EA78DE60727113B37 /* Models.swift */,
+				C1AC71F1675D801B722A4E22 /* Screens.swift */,
+				790CACAF8754FDB189DE721C /* YouTube.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		27BBBE4D7007B99F1B0591B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9133195E7A8C1D1223258BF /* HackerTube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F201660BBBC95E63EFD3DD25 = {
+			isa = PBXGroup;
+			children = (
+				03C9D0D8BA75CB9B5B00FF96 /* Assets.xcassets */,
+				26E53E4C5B465A81BB00AFCC /* App */,
+				27BBBE4D7007B99F1B0591B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE1720C32DCA61F7EA45219 /* HackerTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B27B46DC769E346F42A508 /* Build configuration list for PBXNativeTarget "HackerTube" */;
+			buildPhases = (
+				C8D12656D72D7DE2C5677DD4 /* Sources */,
+				E7C6D83B9AAD702763C59092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerTube;
+			packageProductDependencies = (
+			);
+			productName = HackerTube;
+			productReference = E9133195E7A8C1D1223258BF /* HackerTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C731D50ED9141942EFC193E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5FE1720C32DCA61F7EA45219 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC72180A74300C723D890567 /* Build configuration list for PBXProject "HackerTube" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F201660BBBC95E63EFD3DD25;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27BBBE4D7007B99F1B0591B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE1720C32DCA61F7EA45219 /* HackerTube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C6D83B9AAD702763C59092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0385E4DABC12A4341A555B68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D12656D72D7DE2C5677DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A731D5D836284507AE8747 /* Catalog.swift in Sources */,
+				0F5A3C564A428EBE090A0968 /* Components.swift in Sources */,
+				CB19AD3AB2E92B9D51C7BBA1 /* Config.swift in Sources */,
+				4BC9E9B6E60B13165A634B7E /* HackerTubeApp.swift in Sources */,
+				E6B712881AABC09C7946DE3D /* Models.swift in Sources */,
+				E38C97AF838BF3B2A8A66A40 /* Screens.swift in Sources */,
+				0AA47C128FD40CB91F1756CA /* YouTube.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		086F8CCA86F6CEAC4DF5D89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hackertube;
+				PRODUCT_NAME = HackerTube;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		63DFA9813F4339810A406DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		7B5647D464760BB352189F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hackertube;
+				PRODUCT_NAME = HackerTube;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		CF58FBDD24A36060C65DA994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC72180A74300C723D890567 /* Build configuration list for PBXProject "HackerTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DFA9813F4339810A406DA2 /* Debug */,
+				CF58FBDD24A36060C65DA994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B3B27B46DC769E346F42A508 /* Build configuration list for PBXNativeTarget "HackerTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5647D464760BB352189F2F /* Debug */,
+				086F8CCA86F6CEAC4DF5D89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C731D50ED9141942EFC193E4 /* Project object */;
+}
