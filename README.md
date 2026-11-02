@@ -12,6 +12,7 @@ The name and the idea come from **Andrej Karpathy**. He built [HackerTube](https
 
 ## Screenshots
 
+![Home](docs/home.png)
 ![Topics](docs/topics.png)
 ![Years](docs/years.png)
 
