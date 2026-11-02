@@ -6,6 +6,9 @@ YouTube videos that Hacker News recommends, on your TV.
 
 People on Hacker News share great videos in their comments. Talks, lectures, documentaries, demos. This app collects them, ranks them, and shows them on Apple TV.
 
+> [!IMPORTANT]
+> **The official YouTube app must be installed on your Apple TV.** HackerTube does not play videos itself. It opens them in the YouTube app. Get it free from the App Store on the Apple TV.
+
 ## Credit
 
 The name and the idea come from **Andrej Karpathy**. He built [HackerTube](https://karpathy.bearblog.dev/hacker-tube/) as a website. This project is an Apple TV version of his idea, with a backend that updates itself.
@@ -31,7 +34,7 @@ Each video page shows:
 - the HN thread and a comment about it;
 - related videos from the same HN threads.
 
-Press **Play on YouTube** and the video opens in the YouTube app. tvOS has no web view, so the app can't play YouTube videos itself.
+Press **Play on YouTube** and the video opens in the official YouTube app. tvOS has no web view, so the app can't play YouTube videos itself. Without the YouTube app, Play shows an error.
 
 ## How the system works
 
@@ -127,7 +130,7 @@ A video shared on HN today reaches the app within about 3 hours.
 
 - A Mac with Xcode 16 or newer.
 - An Apple TV (4K or HD) with tvOS 17 or newer.
-- The YouTube app on the Apple TV.
+- **The official YouTube app on the Apple TV** (free on the App Store). Videos will not play without it.
 - An Apple ID. A free one works.
 
 ### 1. Pair your Apple TV with Xcode
