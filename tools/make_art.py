@@ -35,16 +35,16 @@ def background(w, h):
 
 
 def screen(w, h, frac=0.62):
-    """A dark rounded TV screen with an orange 'Y' and a white play triangle."""
+    """A dark rounded TV screen with an orange 'HN' and a white play triangle."""
     img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     sh = int(h * frac)
     sw = int(sh * 16 / 10)
     x0, y0 = (w - sw) // 2, (h - sh) // 2
     d.rounded_rectangle([x0, y0, x0 + sw, y0 + sh], radius=sh // 7, fill=DARK, outline=(255, 255, 255), width=max(2, sh // 40))
-    f = font(int(sh * 0.62))
-    d.text((x0 + sw * 0.34, y0 + sh * 0.5), "Y", font=f, fill=ORANGE, anchor="mm")
-    tx, ty, ts = x0 + sw * 0.68, y0 + sh * 0.5, sh * 0.24
+    f = font(int(sh * 0.44))
+    d.text((x0 + sw * 0.35, y0 + sh * 0.5), "HN", font=f, fill=ORANGE, anchor="mm")
+    tx, ty, ts = x0 + sw * 0.72, y0 + sh * 0.5, sh * 0.24
     d.polygon([(tx - ts * 0.6, ty - ts), (tx - ts * 0.6, ty + ts), (tx + ts, ty)], fill=(255, 255, 255))
     return img
 
